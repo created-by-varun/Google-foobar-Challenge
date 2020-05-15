@@ -1,5 +1,3 @@
-# Note: this solution is failing 2 test cases at the moment
-
 def solution(total_lambs):
     totals = [generous(total_lambs), stingy(total_lambs)]
     difference = max(totals) - min(totals)
